@@ -15,7 +15,7 @@ import {
   UnauthorizedExceptionFilter,
   ValidationExceptionFilter,
 } from './filters';
-import { CardValidationModule } from './modules/card-validation/card-valid.module';
+import { CardValidationModule } from './module/card-validation/card-valid.module';
 
 dotenv.config();
 @Module({

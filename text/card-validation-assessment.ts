@@ -5,7 +5,7 @@ import { expect } from '@jest/globals';
 import { it } from '@jest/globals';
 import request from 'supertest';
 import { describe, beforeEach, afterEach } from '@jest/globals';
-import { CardValidationModule } from 'src/modules/card-validation/card-valid.module';
+import { CardValidationModule } from 'src/module/card-validation/card-valid.module';
 import { BadRequestExceptionFilter, ValidationExceptionFilter } from '../src/filters';
 
 
