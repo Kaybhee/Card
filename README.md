@@ -196,6 +196,6 @@ npm run test:e2e      # integration/e2e tests
 `CardValidationModule` - not the full `AppModule` - and asserts against real HTTP
 requests via `supertest`. It's deliberately isolated from `AppModule` so it doesn't
 require a live MongoDB connection: the feature under test has no database
-dependency, so the test suite shouldn't have one either. The global `ValidationPipe`
+dependency, so the test suite doesn't have one either. The global `ValidationPipe`
 and the two relevant exception filters are applied manually in the test setup so
 behaviour matches what `main.ts`/`app.module.ts` configure in production.
