@@ -199,9 +199,3 @@ require a live MongoDB connection: the feature under test has no database
 dependency, so the test suite shouldn't have one either. The global `ValidationPipe`
 and the two relevant exception filters are applied manually in the test setup so
 behaviour matches what `main.ts`/`app.module.ts` configure in production.
-
-The pre-existing `test/app.e2e-spec.ts` (testing the root `AppController`) still
-requires a live MongoDB connection, since it boots the full `AppModule`.
-#   C a r d _ V a l i d a t i o n _ N u m b e r  
- #   C a r d  
- 
